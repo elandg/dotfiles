@@ -1,0 +1,17 @@
+alias rel=". ~/.bashrc"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ~="cd ~"
+alias act="source env/bin/activate"
+alias deac="deactivate"
+# alias mkenv3.7="python3.7 -m venv env"
+# alias mkenv3.8="python3.8 -m venv env"
+# alias mkenv3.9="python3.9 -m venv env"
+# alias mkenv3.10="python3.10 -m venv env"
+alias gs='git status'
+alias ga='git add .'
+alias gpu='git push'
+alias vbal='vim ~/.bash_aliases'
+alias cbal='code ~/.bash_aliases'
+alias f22='cd /mnt/c/Users/Eric\ Landgraf/Default/Umich/F22/'
+alias dwn='cd /mnt/c/Users/Eric\ Landgraf/Downloads/'

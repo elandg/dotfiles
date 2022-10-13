@@ -1,0 +1,27 @@
+pyenv() {
+    if [ "$#" -ne 1 ]; then
+        echo "Please specify Python version"
+        return
+    fi
+
+    "python$1" -m venv env
+}
+
+gacu() {
+    # if [ "$#" -ne 2 ]; then
+    #     git add .    
+    # elif [ "$#" -e 3 ]; then
+    #     git add $2
+    # else
+    #     echo "Please enter a commit message"
+    #     return
+    # fi
+    if [ "$#" -ne 1 ]; then
+        echo "Please enter a commit message"
+        return
+    fi
+
+    git add .
+    git commit -m "$1"
+    git push
+}
